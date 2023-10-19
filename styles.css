@@ -1,0 +1,99 @@
+*{box-sizing: border-box;}
+  body{
+  margin:0;
+  font-family:helvetica;
+  background:url(https://upload.wikimedia.org/wikipedia/commons/d/d9/Fram_March_1894.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  }
+
+  #bottom{
+  width:100%;
+  height:auto;
+  padding:0 0 1% 0;
+  margin:0;
+  background-color:rgb(200,200,200,0.7);
+  }
+
+h1, p{
+  
+}
+h1{
+text-align:center;
+font-weight:700;
+color:#8C0000;
+padding:0;
+margin:0; 
+}
+
+p{
+text-align:center;
+}
+
+#title-box{
+  width:50wv;
+  margin:0% 5% 2%;
+  padding:1px 0px 0px 0px;
+  }
+#title-box p{
+  max-width:80wv;
+  margin:0 auto;
+  padding:0px 0 10px 0px;
+  font-weight:600;
+  color:#332E2E;
+}
+
+#img-div{
+  margin:0;
+}
+#image{
+  display: block;
+  width:300px;
+  max-width:100%;
+  height:auto;
+  margin:0 auto;
+  box-shadow: 1px 1px 1px 1px #808080;
+}
+
+#img-div figcaption {
+  width:300px;
+  max-width:100%;
+  margin:0 auto 2%;
+  text-align:center;
+  font-weight:500;
+  color:#332E2E;
+  }
+
+  #tribute-info{
+    margin:0 5%; 
+    font-size:1.2rem;
+    color:#332E2E;
+  }
+
+#tribute-info header{
+text-align:center;
+font-weight:600;
+font-size:1.4rem;
+padding:10px 0px 0px 0px;
+margin:0;
+color:#8C0000
+}
+
+li{
+  text-align:justify;
+  padding:0px 0px 0px 0px;
+  margin:1rem 1rem 0 0rem;
+}
+
+li:last-of-type{
+  padding-bottom:1rem;
+}
+
+#tribute-info, #img-caption, #title-box {
+Background-color: #80808077;
+box-shadow: 1px 1px 1px 1px #808080;
+}
+#link-text{
+  Font-size:1.2rem;
+  color:#332E2E;
+}
